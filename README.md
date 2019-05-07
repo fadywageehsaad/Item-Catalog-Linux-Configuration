@@ -4,7 +4,7 @@
 You can visit http://18.194.209.163/ for the website deployed.
 And the SSH post is 2200
 
-##summary of software you installed and configuration changes made
+##Summary of software you installed and configuration changes made
 1. Create AWS account
 2. Create instance with AWS Lightsail
 3. Allow port 2200 in the firewall of the instance, in able to change SSH port to 2200
@@ -21,3 +21,7 @@ And the SSH post is 2200
 	- Do not allow remote connections
 	- Create a new user named catalog that has limited permissions to your catalog application database
 12. Install git, clone and setup your Catalog App project (from your GitHub repository from earlier in the Nanodegree program) so that it functions correctly when visiting your server’s IP address in a browser. Remember to set this up appropriately so that your .git directory is not publicly accessible via a browser!
+
+##References:
+[kongling893/Linux-Server-Configuration-UDACITY](https://github.com/kongling893/Linux-Server-Configuration-UDACITY)
+[how-to-deploy-a-flask-application-on-an-ubuntu-vps](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
